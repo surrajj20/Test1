@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,800');
+@font-face { font-family: 'FuturaBT-Bold'; src: url('webfont/FuturaBT-Boldd41d.eot?#iefix') format('embedded-opentype'), url('../../index-2.html') format('woff'), url('../../index-2.html') format('truetype'), url('../../index-2.html#FuturaBT-Bold') format('svg'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'FuturaBT-Light'; src: url('webfont/FuturaBT-LightCondensedd41d.eot?#iefix') format('embedded-opentype'), url('webfont/FuturaBT-LightCondensed.woff') format('woff'), url('webfont/FuturaBT-LightCondensed.ttf') format('truetype'), url('webfont/FuturaBT-LightCondensed.svg#FuturaBT-Light') format('svg'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'FuturaBT-Medium'; src: url('webfont/FuturaBT-Mediumd41d.eot?#iefix') format('embedded-opentype'), url('webfont/FuturaBT-Medium.woff') format('woff'), url('webfont/FuturaBT-Medium.ttf') format('truetype'), url('webfont/FuturaBT-Medium.svg#FuturaBT-Medium') format('svg'); font-weight: normal; font-style: normal; }
+
+body{font-size: 16px; font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";}
+/*---common---*/
+
+
+.w-35{width: 35%!important;}
+.bg-purple{background: #73388d;}
+.bg-light-purple{background: #f8d3e3;}
+
+
+.text-purple{color: #73388d;}
+.purple-font { font-size:42px !important; }
+.text-orange{color: #e77432;}
+.text-grey{color: #b1b1b1;}
+.text-dark-brown{color: #3f1316;}
+.text-brown{color: #695754;}
+
+.border-orange{border-color:#e68a47 !important; }
+.btn{ border-radius: 0;}
+.btn-danger{background: #3f1316; border-color:#3f1316; box-shadow:0px 1px  5px #151011;}
+
+.font-1{font-size: 1.1em;}
+.font-1-5{font-size: 1.5em;}
+p{ }
+ul li{font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif"; font-size: 15px; padding-bottom: 5px;}
+.btn{  }
+
+a{color: #695754;}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: #E8E8E8;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #E8E8E8;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #E8E8E8;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #E8E8E8;
+}
+
+/*header*/
+header{display: block; height: 120px; width: 100%; }
+.banner{ }
+.banner-bg{ background: url(../images/banner.png) no-repeat right top #E8EAEB; background-size: auto;}
+.banner h1{ font-size: 4em; font-weight: lighter; padding-top: 120px;}
+.banner h4{ font-size: 1.7em; font-weight: lighter; width: 30%; padding-top: 10px; padding-bottom: 20px;}
+.banner-inner-text{ padding-top: 100px;}
+.card-header{ padding: 0; background-color: #f8d3e3; border-radius: 0;}
+.card{ margin-bottom: 10px;}
+.btn-link{ color: #000; text-decoration: none;}
+
+
+.sbi-text{
+	color: #FFF;
+	padding-right: 75px;
+	background: url("../images/sbi.png") no-repeat center right;
+	display: block;
+	background-size: 65px;
+}
+.download-btn a { padding:7px; background:#73388d; border-radius:5px; text-align:center; color:#FFFFFF; text-decoration:none; display:block; width:160px; margin:auto; font-size:18px; }
+
+.pink-strip { background: #74398e; padding: 40px 20px; margin: 20px auto; z-index: 1000; position: relative; }
+.icn-img img { display:block; margin:auto; }
+.num-count { display:block; font-size:25px; padding-top:10px; color:#FFFFFF; text-align:center; font-weight:bold; }
+.icn-text { display:block; font-size:16px; color:#FFFFFF; text-align:center; text-transform:uppercase; }
+.logo-state-text{ display:block; font-size:25px; color:#FFFFFF; padding-top:20px; }
+
+.state-name{
+	display: block;
+	padding-left: 20px;
+	margin-left: -30px;
+	border-left: 1px solid #FFF;
+}
+
+#google_translate_element{
+	margin-top: 60px;
+}
+
+@media screen and (min-width: 992px) {
+  
+
+
+
+}
+
+@media screen and (max-width: 700px) {
+	.banner-inner-text{ padding-top: 0px;}
+	h3{font-size: 1em;}
+	.banner h1{ font-size: 15px !important; font-weight: lighter; padding-top: 20px;}
+	.banner h4{ font-size: 14px; font-weight: lighter; width: 60%; padding-top: 0px; padding-bottom: 20px;}
+header{display: block; height: auto; width: 100%; }
+	.accord { width: 100% !important;}
+	.accord .btn-link{ font-size: 12px;}
+	.icn-text { margin-bottom:20px; }
+	.header-logomb { width:100%; display:block; margin:auto; }
+	.logo-state-text{ font-size:17px; padding-top:10px; }
+	.purple-font { font-size:25px !important; font-weight:bold; }
+
+	.banner-bg{
+		background-size: contain;
+		background-position-x: 70px;
+	}
+
+	.sbi-text{ display: none; }
+
+	.state-name{ margin-left: -10px; }
+
+	.banner-bg .btn.btn-dark{ font-size: 12px; }
+
+	#google_translate_element{
+		margin-top: 10px;
+	}
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
